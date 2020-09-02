@@ -438,7 +438,7 @@ func isNumeric(character rune) bool {
 
 func isNotQuote(character rune) bool {
 
-	return character != '\'' && character != '"'
+	return character != '"'
 }
 
 func isNotAlphanumeric(character rune) bool {
